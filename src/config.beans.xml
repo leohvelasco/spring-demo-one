@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id ="HelloUsingConfigBean" class="decodejava.HelloUsingConfigBeans"> </bean>
+
+    
+</beans>
+
+<!--This mapping document has a parent <beans> tag as the root element and its individual child elements, each with a <bean> tag, containing all the attributes such as -
+The id attribute within the <bean> element defines a unique id associated with the bean.
+The class attribute within the <bean> element defines the name of the class of this bean.-->
